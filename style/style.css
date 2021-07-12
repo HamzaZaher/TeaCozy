@@ -38,7 +38,7 @@ a{
 }
 
 #banner{
-    background-image: url('/images/img-mission-background.jpg');
+    background-image: url(/images/img-mission-background.jpg);
     min-height: 700px;
     max-width: 1200px;
     margin: 0 auto;
@@ -67,15 +67,31 @@ a{
     justify-content: center;
 
 }
-.container h4{
-    margin-top: 0;
-}
 #box-1 img,#box-2 img,#box-3 img,#box-4 img,#box-5 img{
     height: 200px;
     width: 300px;
     margin: 10px;
 }
 
+#location{
+    background-image: url(/images/img-locations-background.jpg);
+    min-height: 500px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: center;
+    background-size: cover;
+    background-position:  top center;
+    max-width: 1200px;
+    padding-top: 50px;
+}
+
+#location .container div{
+    background-color: black;
+    margin: 15px 40px 15px 40px;
+    width: 300px;
+    opacity: 1;
+    
+}
 @media only screen and (max-width:580px) {
     #nav ul li {
         display: block;
